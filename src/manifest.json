@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Delete AI Result from Google Search",
+  "version":"1.0.0",
+  "description":"Google検索結果からAIによる概要を排除する",
+  "content_scripts":[
+    {
+      "matches": ["https://www.google.com/search*"],
+      "js": ["main.js"]
+    }
+  ]
+}
